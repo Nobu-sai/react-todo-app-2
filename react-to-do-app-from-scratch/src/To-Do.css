@@ -1,0 +1,21 @@
+
+.to-do {
+  margin-top: 12px;
+  border: 1px solid black;
+  padding: 10px 40px;
+  width: 100%;
+
+  display: flex;  
+  justify-content: space-between;
+}
+
+.delete-button {
+  padding: 10px 20px;
+  width: 200px;
+}
+
+.delete-button:hover {
+  box-shadow: 0 0 10px 10px black;
+  cursor: pointer;
+  
+}
